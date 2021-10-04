@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Advance Search</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id="nav-bar">
+            <a href="C:\Users\pv\Desktop\vs code\cs50w\search\index.html">Search</a>
+            <a href="C:\Users\pv\Desktop\vs code\cs50w\search\image.html">Image</a>
+            <a href="C:\Users\pv\Desktop\vs code\cs50w\search\advancesearch.html">Advance Search</a>
+        </div>
+        <div class="brand" id="advance">
+            <h3 >Google</h3>
+            <p id="sub-title" >Advance Search</p>
+        </div>
+       
+        <form id="form-option" action="https://google.com/search">
+            <label for="find"> Find pages with ...</label><br><br>
+            <div class="option">
+                <label >all these words:</label>
+                <input type="text" name="as_q"><br>
+            </div>
+            <div class="option">
+                <label >this exact word or phrases:</label>
+                <input type="text" name="as_epq"><br>
+            </div>
+            <div class="option">
+                <label >any of these words:</label>
+                <input type="text" name="as_oq"><br>
+            </div>
+            <div class="option">
+                <label >none of these words:</label>
+                <input type="text" name="as_eq"><br>
+            </div>
+            <input id="ad-submit" class="submit" type="submit" value="advance search">
+        </form>
+    </body>
+</html>

@@ -1,0 +1,88 @@
+body
+{   
+    text-align: center;
+    font-family: sans-serif;
+}
+#nav-bar
+{
+    overflow: hidden;
+
+}
+#nav-bar a
+{
+    float: left;
+    padding: 14px;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(85, 80, 80);
+}
+.brand
+{
+    margin-bottom: 14px;
+}
+#advance
+{
+  
+    text-align: left;
+    padding: 14px;
+}
+#sub-title
+{
+    padding: 14px;
+}
+h1
+{
+    font-family: sans-serif;
+    font-size: 80px;
+  
+}
+
+#searchbar
+{
+    width: 550px;
+    border-radius: 25px;
+    border-color: rgb(85, 80, 80) !important;
+    border-width: 1px;
+    box-shadow: none;
+    font-size: 20px;
+    padding: 10px;
+
+}
+form .submit
+{
+    margin: 25px;
+    border: none;
+    border-radius: 8px;
+    font-size: 20px ;
+    padding: 10px;
+}
+#form-option
+{
+    text-align: left;
+    margin-left: 28px;
+}
+.option
+{
+    width: 800px;
+    padding: 8px;
+  
+}
+.option input
+{
+    margin-right: 0%;
+    width: 500px;
+    padding: 4px;
+    border-radius: 0;
+    border-width: 1px;
+    
+}
+input:focus {
+    outline: none !important;
+    border:1px solid blue;
+
+  }
+  #ad-submit
+  {
+      color: white;
+      background-color: rgb(36, 80, 224);
+  }
